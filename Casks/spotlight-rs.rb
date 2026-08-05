@@ -11,8 +11,8 @@
 #   xattr -dr com.apple.quarantine "/Applications/Spotlight-rs.app"
 # The `quarantine` stanza below asks Homebrew to strip the attribute on install.
 cask "spotlight-rs" do
-  version "0.9.0"
-  sha256 "0c69a4fc2c98cb6faefc8ad1e6cdba2ee72c727c0eee9c720fd7528c971c124a"
+  version "0.10.0"
+  sha256 "0be0a9d12efa2964529a290675cab83a6ed7a72ecd5bed507c170c219d85a8ff"
 
   url "https://github.com/Nickhoyer/spotlight-rs/releases/download/v#{version}/Spotlight-rs.zip"
   name "Spotlight-rs"
