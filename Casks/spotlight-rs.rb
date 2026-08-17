@@ -10,8 +10,8 @@
 # notarization ticket stapled into the bundle, so Gatekeeper clears them on
 # first launch with no right-click → Open and no quarantine workaround.
 cask "spotlight-rs" do
-  version "0.15.0"
-  sha256 "777ff0a5f55239c31436d65805b7bd8540cacfe7c72519a46ee556b8035cce1e"
+  version "0.16.0"
+  sha256 "bcc73a39a57ee1e7ed17222ce4f13cef42ce90af86c571a57ac4c98583a72a62"
 
   url "https://github.com/Nickhoyer/spotlight-rs/releases/download/v#{version}/Spotlight-rs.zip"
   name "Spotlight-rs"
